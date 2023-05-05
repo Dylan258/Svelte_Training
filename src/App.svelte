@@ -19,21 +19,7 @@
      */
 
     const routes = {
-        "/": Home,
-        "/home": Home,
-        "/login": Login,
-        "/login/:message": Login,
-        "/login/:message/:redirect": Login,
-        "/create-account": CreateAccount,
-        "/forgot-password": ForgotPassword,
-        "/reset-password/:token": ResetPassword,
-        "/routing-example": RoutingExample,
-        "/routing-example/:id": RoutingExample,
-        "/component-library": ComponentLibrary,
-        "/profile": Profile,
-        "/notification-onboarding": NotificationOnboarding,
-
-        "*": NotFound,
+        "*": Home,
     };
 
     onMount(async () => {
